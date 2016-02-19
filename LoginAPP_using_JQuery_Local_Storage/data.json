@@ -1,0 +1,23 @@
+
+{
+  
+  "Users":[{
+    "login":"rajat",
+    "password":"rajat",
+    "role":"admin"
+  },
+  {
+    "login":"singh",
+    "password":"singh",
+    "role":"student"
+    
+  },
+  {
+    "login":"bajirao",
+    "password":"singham",
+    "role":"admin"
+  }
+  ]
+  
+  
+}
