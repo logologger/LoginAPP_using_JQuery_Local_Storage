@@ -32,7 +32,7 @@ $(document).ready(function()
            
            
            var second_token=0;
-           
+           //If the user credentials are not in json file and user is not logging in first time means the localStorage in not empty
            if(token===0 && window.localStorage.getItem("users"))
                {
                    var users_local_storage=JSON.parse(window.localStorage.getItem("users"));
@@ -71,6 +71,10 @@ $(document).ready(function()
         
            
                }
+       else{
+           window.location.replace("register.html");
+           //Here the LocalStorage is empty 
+       }
        
        
        
